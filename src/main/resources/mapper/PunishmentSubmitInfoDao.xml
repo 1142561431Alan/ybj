@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ntsybj.dao.PunishmentSubmitInfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.ntsybj.entity.PunishmentSubmitInfoEntity" id="punishmentSubmitInfoMap">
+        <result property="idYbjPunishmentSubmitInfo" column="id_ybj_punishment_submit_info"/>
+        <result property="punishedName" column="punished_name"/>
+        <result property="gender" column="gender"/>
+        <result property="employmentStatus" column="employment_status"/>
+        <result property="certificateType" column="certificate_type"/>
+        <result property="idNumber" column="id_number"/>
+        <result property="highestEducation" column="highest_education"/>
+        <result property="politicsStatus" column="politics_status"/>
+        <result property="punishOrgName" column="punish_org_name"/>
+        <result property="occurredOrgLevel" column="occurred_org_level"/>
+        <result property="punishedOccurredOrgName" column="punished_occurred_org_name"/>
+        <result property="punishedOccurredDeptName" column="punished_occurred_dept_name"/>
+        <result property="punishedOccurredPost" column="punished_occurred_post"/>
+        <result property="seniorExecutiveState" column="senior_executive_state"/>
+        <result property="seniorExecutiveFile" column="senior_executive_file"/>
+        <result property="seniorExecutiveDate" column="senior_executive_date"/>
+        <result property="illegalBrassTacks" column="illegal_brass_tacks"/>
+        <result property="punishedBasis" column="punished_basis"/>
+        <result property="fillDept" column="fill_dept"/>
+        <result property="fillDate" column="fill_date"/>
+        <result property="informant" column="informant"/>
+        <result property="phone" column="phone"/>
+        <result property="fillDeptHead" column="fill_dept_head"/>
+        <result property="mobilePhone" column="mobile_phone"/>
+        <result property="auditStatus" column="audit_status"/>
+        <result property="enableStatus" column="enable_status"/>
+        <result property="createDate" column="create_date"/>
+        <result property="createBy" column="create_by"/>
+        <result property="updateDate" column="update_date"/>
+        <result property="updateBy" column="update_by"/>
+    </resultMap>
+
+
+</mapper>

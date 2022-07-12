@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ntsybj.dao.PunishmentInfoEditRecordDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.ntsybj.entity.PunishmentInfoEditRecordEntity" id="punishmentInfoEditRecordMap">
+        <result property="idYbjPunishmentInfoEditRecord" column="id_ybj_punishment_info_edit_record"/>
+        <result property="idYbjPunishmentSubmitInfo" column="id_ybj_punishment_submit_info"/>
+        <result property="punishCategory" column="punish_category"/>
+        <result property="punishType" column="punish_type"/>
+        <result property="punishDate" column="punish_date"/>
+        <result property="penaltyTerm" column="penalty_term"/>
+        <result property="liftTime" column="lift_time"/>
+        <result property="afterPunishCategory" column="after_punish_category"/>
+        <result property="afterPunishType" column="after_punish_type"/>
+        <result property="afterPunishDate" column="after_punish_date"/>
+        <result property="afterPenaltyTerm" column="after_penalty_term"/>
+        <result property="afterLiftTime" column="after_lift_time"/>
+        <result property="enableStatus" column="enable_status"/>
+        <result property="createDate" column="create_date"/>
+        <result property="createBy" column="create_by"/>
+        <result property="updateDate" column="update_date"/>
+        <result property="updateBy" column="update_by"/>
+    </resultMap>
+
+
+</mapper>
